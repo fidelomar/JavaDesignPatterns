@@ -1,2 +1,5 @@
-package com.company.creational.abstractfactory;public class PaymentMethod {
+package com.company.creational.abstractfactory;
+
+public interface PaymentMethod {
+    String doPayment();
 }

@@ -1,2 +1,6 @@
-package com.company.creational.abstractfactory;public class Card {
+package com.company.creational.abstractfactory;
+
+public interface Card {
+    String getCardType();
+    String getCardNumber();
 }
